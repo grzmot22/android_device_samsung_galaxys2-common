@@ -202,3 +202,9 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/galaxys2-common/BoardConfigVendor.mk
+#RR Config Flags
+RROPTI := true
+RR_O3 := true
+RR_GRAPHITE := true
+RR_STRICT := false
+RR_KRAIT := false
