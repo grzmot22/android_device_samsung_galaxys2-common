@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 allow mediaserver mfc_device:chr_file { open read write ioctl};
+=======
+allow mediaserver mfc_device:chr_file rw_file_perms;
+allow mediaserver video_device:chr_file rw_file_perms;
+>>>>>>> f0a445c957036e791c2bd146e5b8cf1e082e099b

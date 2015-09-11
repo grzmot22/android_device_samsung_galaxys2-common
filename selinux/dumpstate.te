@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 allow dumpstate init:unix_stream_socket connectto;
+=======
+unix_socket_connect(dumpstate, dumpstate, init);
+>>>>>>> f0a445c957036e791c2bd146e5b8cf1e082e099b

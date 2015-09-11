@@ -17,24 +17,24 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="mdnie_scenario_entries">
-    <item>CyanogenMod (預設)</item>
-    <item>UI</item>
-    <item>影片</item>
-    <item>影片 (暖色)</item>
-    <item>影片 (冷色)</item>
-    <item>相機</item>
-    <item>導航</item>
-    <item>圖片庫</item>
+    <item>سایانوژن‌مود (پیش‌فرض)</item>
+    <item>رابط کاربر</item>
+    <item>ویدیو</item>
+    <item>تصویری گرم</item>
+    <item>تصویری سرد</item>
+    <item>دوربین</item>
+    <item>پیمایش</item>
+    <item>گالری</item>
     <item>VT</item>
   </string-array>
   <string-array name="mdnie_mode_entries">
-    <item>動態 (預設)</item>
-    <item>標準</item>
-    <item>自然</item>
-    <item>電影</item>
+    <item>پویا (پیش‌فرض)</item>
+    <item>استاندارد</item>
+    <item>طبیعی</item>
+    <item>فیلم</item>
   </string-array>
   <string-array name="mdnie_negative_entries">
-    <item>正常</item>
-    <item>負片</item>
+    <item>عادی</item>
+    <item>معکوس</item>
   </string-array>
 </resources>

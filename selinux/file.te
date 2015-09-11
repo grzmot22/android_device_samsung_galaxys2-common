@@ -1,3 +1,7 @@
 type radio_efs_file, fs_type;
 type firmware_mfc, file_type;
 type sysfs_display, fs_type, sysfs_type;
+<<<<<<< HEAD
+=======
+type efs_device_file, file_type;
+>>>>>>> f0a445c957036e791c2bd146e5b8cf1e082e099b
