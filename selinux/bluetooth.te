@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 allow bluetooth sysfs:file write;
 allow bluetooth unlabeled:dir search;
-=======
 allow bluetooth efs_device_file:dir search;
->>>>>>> f0a445c957036e791c2bd146e5b8cf1e082e099b
+
