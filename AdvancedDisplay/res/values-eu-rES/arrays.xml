@@ -16,14 +16,25 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Papildu displejs</string>
-  <string name="defaults_button">Atstatīt uz noklusēto</string>
-  <string name="category_screen_title">Ekrāns</string>
-  <string name="screen_colors_title">Krāsas</string>
-  <string name="mdnie_scenario_title_head">Scenārijs</string>
-  <string name="mdnie_scenario_summary_head">Uzstādīt mDNIe scenāriju</string>
-  <string name="mdnie_mode_title_head">Režīms</string>
-  <string name="mdnie_mode_summary_head">Uzstādīt mDNIe režīmu</string>
-  <string name="mdnie_negative_title_head">Negatīvs režīms</string>
-  <string name="mdnie_negative_summary_head">Ieslēgt/izslēgt apgrieztas krāsas</string>
+  <string-array name="mdnie_scenario_entries">
+    <item>CyanogenMod (lehenetsia)</item>
+    <item>UI</item>
+    <item>Bideoa</item>
+    <item>Bideo epela</item>
+    <item>Bideo hotza</item>
+    <item>Kamera</item>
+    <item>Nabigazioa</item>
+    <item>Galeria</item>
+    <item>Bideodeia</item>
+  </string-array>
+  <string-array name="mdnie_mode_entries">
+    <item>Dinamikoa (lehenetsia)</item>
+    <item>Estandarra</item>
+    <item>Naturala</item>
+    <item>Filmea</item>
+  </string-array>
+  <string-array name="mdnie_negative_entries">
+    <item>Arrunta</item>
+    <item>Alderantzikatua</item>
+  </string-array>
 </resources>

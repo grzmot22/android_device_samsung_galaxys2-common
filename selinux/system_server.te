@@ -1,7 +1,15 @@
 allow system_server uhid_device:chr_file { read write ioctl open };
+<<<<<<< HEAD
 allow system_server unlabeled:file write;
 allow system_server sysfs_display:file { read write getattr open };
 allow system_server default_prop:property_service set;
 allow system_server efs_file:dir { search };
 allow system_server efs_file:file { read open write };
 
+=======
+allow system_server sysfs_display:file { read write getattr open };
+allow system_server efs_file:dir { search };
+allow system_server efs_file:file { read open write };
+allow system_server efs_device_file:dir search;
+allow system_server fuse:dir search;
+>>>>>>> f0a445c957036e791c2bd146e5b8cf1e082e099b

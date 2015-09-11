@@ -20,6 +20,7 @@
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_USE_SAMSUNG_COLORFORMAT := true
 USE_SAMSUNG_COLORFORMAT := true
+BOARD_USES_LEGACY_MMAP := true
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
@@ -72,12 +73,16 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # Releasetools
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./device/samsung/galaxys2-common/releasetools/galaxys2_ota_from_target_files
 TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := ./device/samsung/galaxys2-common/releasetools/galaxys2_img_from_target_files
+TARGET_RELEASETOOLS_EXTENSIONS := ./device/samsung/galaxys2-common/releasetools/extensions
 
 # Hardware tunables
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
 
 # Graphics
 BOARD_EGL_CFG := device/samsung/galaxys2-common/configs/egl.cfg
+BOARD_EGL_NEEDS_FNW := true
+BOARD_EGL_SKIP_FIRST_DEQUEUE := true
+BOARD_EGL_SYSTEMUI_PBSIZE_HACK := true
 USE_OPENGL_RENDERER := true
 COMMON_GLOBAL_CFLAGS += -DFORCE_SCREENSHOT_CPU_PATH -DWORKAROUND_BUG_10194508
 BOARD_EGL_NEEDS_FNW := true
@@ -169,6 +174,8 @@ BOARD_SEPOLICY_UNION += \
     netd.te \
     rild.te \
     shell.te \
+    healthd.te \
+    kernel.te \
     system_app.te \
     system_server.te \
     ueventd.te \

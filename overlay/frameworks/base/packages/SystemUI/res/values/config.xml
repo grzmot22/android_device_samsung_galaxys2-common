@@ -29,11 +29,14 @@
 
     <!-- Whether to use cheap, less good looking shadows for recents -->
     <bool name="config_recents_fake_shadows">true</bool>
+<<<<<<< HEAD
 
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND? -->
     <bool name="doze_display_state_supported">true</bool>
 
     <!-- Doze: should the pickup sensor be used as a pulse signal? -->
     <bool name="doze_pulse_on_pick_up">false</bool>
+=======
+>>>>>>> f0a445c957036e791c2bd146e5b8cf1e082e099b
 </resources>
 
