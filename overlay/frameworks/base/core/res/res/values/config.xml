@@ -166,7 +166,6 @@
     <!-- Allow the menu hard key to be disabled in LockScreen on some devices -->
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
-<<<<<<< HEAD
     <!-- Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
 
@@ -176,17 +175,17 @@
     <!-- Workaround for devices with broken keyboards -->
     <!--bool name="config_forceDisableHardwareKeyboard">true</bool-->
 
-    <!-- Boolean to enable stk functionality on Samsung phones -->
-    <bool name="config_samsung_stk">true</bool>
-
     <!-- Whether WiFi display is supported by this device-->
     <!--bool name="config_enableWifiDisplay">true</bool-->
-=======
+    
     <!-- Boolean to enable stk functionality on Samsung phones -->
     <bool name="config_samsung_stk">true</bool>
 
     <!-- Performance profiles -->
     <string name="config_perf_profile_prop">sys.perf.profile</string>
     <string name="config_perf_profile_default_entry">1</string>
->>>>>>> f0a445c957036e791c2bd146e5b8cf1e082e099b
+
+    <!-- Control whether a car dock event should override the default bluetooth
+         audio routing, FORCE_BT_CAR_DOCK, with an analog dock, FORCE_ANALOG_DOCK. -->
+    <bool name="config_forceAnalogCarDock">true</bool>
 </resources>
